@@ -12,6 +12,7 @@ html {
 body {
   font-size: 1.6rem;
   font-family: Raleway, "yu Gothic", Meiryo, sans-serif;
+  margin: 0;
 }
 
 *,
