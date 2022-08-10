@@ -1089,7 +1089,7 @@ h3:before {
  * footer
  * -------------------------------- */
 footer{
-padding: 0;
+  margin: 0;
 }
 
 footer p {
