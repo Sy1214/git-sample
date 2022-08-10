@@ -1091,6 +1091,7 @@ h3:before {
 footer{
   margin: 0;
   padding: 8px 0;
+  background-color: #0D395A;
 }
 
 footer p {
@@ -1100,6 +1101,5 @@ footer p {
   margin: 0;
   text-align: center;
   color: #fff;
-  background-color: #0D395A;
   height: 100%;
 }
