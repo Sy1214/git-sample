@@ -193,6 +193,7 @@ body {
   /*スマホ表示折り返し用なのでPCのみなら不要*/
   /* margin:0 0 50px 0; */
   list-style: none;
+  padding: 0;
 }
 
 @media (min-width: 768px) {
