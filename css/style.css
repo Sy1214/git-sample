@@ -1088,6 +1088,9 @@ h3:before {
 /* --------------------------------
  * footer
  * -------------------------------- */
+footer{
+padding: 0;
+}
 
 footer p {
   font-size: 1.4rem;
@@ -1097,3 +1100,4 @@ footer p {
   text-align: center;
   color: #fff;
   background-color: #0D395A;
+}
