@@ -1090,15 +1090,16 @@ h3:before {
  * -------------------------------- */
 footer{
   margin: 0;
+  padding: 8px 0;
 }
 
 footer p {
   font-size: 1.4rem;
   display: block;
   vertical-align: middle;
-  padding: 8px 0;
+  margin: 0;
   text-align: center;
   color: #fff;
   background-color: #0D395A;
-  margin: 0;
+  height: 100%;
 }
