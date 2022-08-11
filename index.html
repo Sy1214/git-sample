@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+	<title>TITLE</title>
+	<!--==============レイアウトを制御する独自のCSSを読み込み===============-->
+	<link rel="stylesheet" type="text/css"
+		href="http://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/move02/5-14/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://use.fontawesome.com/releases/v6.0.0/css/all.css" rel="stylesheet">
+	<style>
+	</style>
+</head>
+
+<body>
+	<!-- top -->
+	<header class="header">
+		<div id="header">
+		</div>
+	</header>
+	<section class="mv">
+		<div class="hero_img">
+			<div class="cap">
+				<h2>
+					市民のみなさまの<br>
+					健康と笑顔のために。
+				</h2>
+				<p>
+					安心・安全な医療を提供するため<br>
+					日々研鑽しております。
+				</p>
+			</div>
+		</div>
+	</section>
+	<!-- メニュー -->
+	<section class="menu">
+		<nav>
+			<ul>
+				<li>
+					<span>
+						<img src="./img/nav_1.svg" alt="">
+					</span>
+					<p class="main">
+						医師会紹介
+					</p>
+					<p class="sub">
+						Introduction
+					</p>
+				</li>
+				<li>
+					<span>
+						<img src="./img/nav_2.svg" alt="">
+					</span>
+					<p class="main">
+						アクセス
+					</p>
+					<p class="sub">
+						Access
+					</p>
+				</li>
+				<li>
+					<span>
+						<img src="./img/nav_3.svg" alt="">
+					</span>
+					<p class="main">
+						救急・休日診療
+					</p>
+					<p class="sub">
+						Holiday on-duty doctor
+					</p>
+				</li>
+				<li>
+					<span>
+						<img src="./img/nav_4.svg" alt="">
+					</span>
+					<p class="main">
+						医療機関検索
+					</p>
+					<p class="sub">
+						Family doctor map
+					</p>
+				</li>
+			</ul>
+		</nav>
+	</section>
+
+	<section class="news">
+		<div class="wrap">
+			<h2 class="heading">
+				お知らせ<br>
+			</h2>
+			<div class="wrap_news-list">
+				<div class="box-title">新着情報</div>
+				<ul class="news-list">
+					<li class="item">
+						<a href="#">
+							<p class="date">2022.05.10</p>
+							<p class="title">HPを更新しました</p>
+						</a>
+					</li>
+					<li class="item">
+						<a href="#">
+							<p class="date">2022.04.10</p>
+							<p class="title">アクセス情報を更新しました</p>
+						</a>
+					</li>
+					<li class="item">
+						<a href="#">
+							<p class="date">2022.03.10</p>
+							<p class="title">休診のお知らせ</p>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="wrapper_button">
+				<a class="button_arrow" href="">すべて見る</a>
+			</div>
+		</div>
+	</section>
+
+	<section class="about">
+		<h2 class="heading">
+			医師会について<br>
+		</h2>
+		<div class="clearfix">
+			<div class="portrait">
+				<img class="pc" src="./img/portrait.png" alt="">
+			</div>
+			<div class="info">
+				</h3>
+				<p class="ex">
+					花井市の医師により構成され、行政や保健・福祉の諸団体、歯科医師会・薬剤師会等と連携し、医療を通じた地域の皆様への貢献を最大の使命としております。
+				</p>
+				<div class="sub_info">
+					<div class="box">
+						<span class="box-title">主な活動内容</span>
+						<ol class="act_list">
+							<li>各種検診事業や予防接種等による疾病予防</li>
+							<li>休日当番医や災害時の救急活動</li>
+							<li>保健大学や各種講演会等による健康教育の推進</li>
+							<li>医師の医療レベル向上のための各種勉強会の開催</li>
+						</ol>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- 活動・サービス -->
+	<section class="works">
+		<div class="wrap">
+			<h2 class="heading">
+				活動・サービス<br>
+			</h2>
+			<div class="wrap_works-list">
+				<ul class="works-list">
+					<li>
+						<div class="img"></div>
+						<p class="main">
+							訪問看護
+						</p>
+						<i class="fa-solid fa-circle-arrow-right"></i>
+					</li>
+					<li>
+						<div class="img"></div>
+						<p class="main">
+							健康講座
+						</p>
+						<i class="fa-solid fa-circle-arrow-right"></i>
+					</li>
+					<li>
+						<div class="img"></div>
+						<p class="main">
+							産業保健
+						</p>
+						<i class="fa-solid fa-circle-arrow-right"></i>
+					</li>
+					<li>
+						<div class="img"></div>
+						<p class="main">
+							検診案内
+						</p>
+						<i class="fa-solid fa-circle-arrow-right"></i>
+					</li>
+				</ul>
+		</div>
+	</section>
+	<!-- footer -->
+	<footer class="footer">
+		<div id="footer"></div>
+	</footer>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script src="js/stats.js"></script>
+	<!-- header -->
+	<script type="text/javascript">
+		$(document).ready(function () {
+			$('#header').load('./inc/header.html');
+		});
+	</script>
+	<!-- footer -->
+	<script type="text/javascript">
+		$(document).ready(function () {
+			$('#footer').load('inc/footer.html');
+		});
+	</script>
+</body>
+
+</html>
